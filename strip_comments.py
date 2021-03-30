@@ -1,8 +1,8 @@
 def solution(string,markers):
-    print(string)
+    #print(string)
     output = ""
     i = 0
-    length = len(string)
+    length = len(string)                                      # string length 
     while i < length:
         if string[i] == ' ' and string[i+1] == '\n':
             output += '\n'
