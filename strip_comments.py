@@ -1,7 +1,6 @@
 # solution to problem Strip Comments at Codewars
 # Bryan Whitehead
 def solution(string,markers):
-    #print(string)
     output = ""
     i = 0
     length = len(string)                                      # string length 
