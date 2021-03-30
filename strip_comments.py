@@ -7,7 +7,7 @@ def solution(string,markers):
 
     i = 0
     length = len(string)                                      # string length 
-    while i < length:
+    while (i < length):                                      # process entire string                       
         if string[i] == ' ' and string[i+1] == '\n':
             output += '\n'
             i += 1
