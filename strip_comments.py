@@ -1,3 +1,5 @@
+# solution to problem Strip Comments at Codewars
+# Bryan Whitehead
 def solution(string,markers):
     #print(string)
     output = ""
