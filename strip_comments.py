@@ -1,8 +1,10 @@
 # solution to problem Strip Comments at Codewars
 # Bryan Whitehead
+
 def solution(string,markers):
-    #print(string)
+    #print(string) this 
     output = ""
+
     i = 0
     length = len(string)                                      # string length 
     while i < length:
